@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import Navbar from './components/Navbar'
+// import Navbar from './components/Navbar'
 import Fnav from './components/floralnavbar'
 import styles from '../styles/Home.module.css'
-import fnav from './components/floralnavbar'
+// import fnav from './components/floralnavbar'
+import Flonav from './components/flosec'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       
       <Fnav/>
+      <Flonav/>
     </div>
   )
 }
